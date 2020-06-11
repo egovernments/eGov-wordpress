@@ -11,6 +11,6 @@
 config:
 -   name: builds/eGov-wordpress/wordpress
     build:
-    - work-dir: egov
+    - work-dir: wp-content
       image-name: wordpress
       dockerfile: Dockerfile
